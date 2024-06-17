@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message MyMessage {
+    repeated string my_strings = 1;
+}

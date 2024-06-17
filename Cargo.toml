@@ -1,0 +1,11 @@
+[package]
+name = "rust-protobuf-assertion-failure-reproduction"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+protobuf = "3.4.0"
+
+[build-dependencies]
+protobuf-codegen = "3.4.0"
